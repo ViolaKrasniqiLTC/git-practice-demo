@@ -1,6 +1,9 @@
+import Header from './components/Header.jsx'
+
 export default function App() {
   return (
     <div className="app">
+      <Header />
       <main className="main">
         <section className="panel">
           <h2>Practice repo</h2>

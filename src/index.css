@@ -34,3 +34,29 @@ body {
   border: 1px solid #e4e7eb;
   border-radius: 8px;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e4e7eb;
+}
+
+.header__logo {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav a {
+  margin-left: 1rem;
+  color: #3e4c59;
+  text-decoration: none;
+}
