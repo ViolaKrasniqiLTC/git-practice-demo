@@ -1,3 +1,5 @@
+import Button from './Button.jsx'
+
 export default function Header() {
   return (
     <header className="header">
@@ -5,6 +7,7 @@ export default function Header() {
       <nav className="header__nav">
         <a href="#exercises">Exercises</a>
         <a href="#about">About</a>
+        <Button variant="secondary">Sign in</Button>
       </nav>
     </header>
   )
