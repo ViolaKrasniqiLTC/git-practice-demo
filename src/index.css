@@ -59,6 +59,17 @@ body {
   margin-left: 1rem;
   color: #3e4c59;
   text-decoration: none;
+
+@media (max-width: 480px) {
+  .header__logo {
+    font-size: 1.05rem;
+    white-space: nowrap;
+  }
+
+  .header__nav a {
+    margin-left: 0.5rem;
+  }
+}
 }
 
 .counter {
