@@ -60,3 +60,23 @@ body {
   color: #3e4c59;
   text-decoration: none;
 }
+
+.counter {
+  padding: 1.5rem;
+  background: #ffffff;
+  border: 1px solid #e4e7eb;
+  border-radius: 8px;
+}
+
+.counter__actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.counter button {
+  padding: 0.4rem 0.9rem;
+  border: 1px solid #cbd2d9;
+  border-radius: 6px;
+  background: #f5f7fa;
+  cursor: pointer;
+}

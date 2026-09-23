@@ -1,4 +1,5 @@
 import Header from './components/Header.jsx'
+import Counter from './components/Counter.jsx'
 
 export default function App() {
   return (
@@ -12,7 +13,7 @@ export default function App() {
             stacked pull requests. Open GUIDE.md and follow the exercises.
           </p>
         </section>
-        {/* demo sections */}
+        <Counter />
       </main>
     </div>
   )
